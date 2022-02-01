@@ -92,7 +92,7 @@ disque).';
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <div>
             Fichier :
-            <input size="100" type="fle" name="fchier" />
+            <input size="100" type="file" name="fchier" />
             <input type="submit" name="ok" value="OK" /><br />
             <?php echo vers_page($message); ?>
         </div>
